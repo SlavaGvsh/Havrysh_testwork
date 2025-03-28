@@ -1,0 +1,168 @@
+@font-face {
+   font-family: Muller;
+   font-style: normal;
+   font-weight: 700;
+   src:
+      local("Muller Bold"),
+      local("MullerBold"),
+      url(../font/muller_bold.f46fec22fe00f222f37ed4c117339b91.woff2) format("woff2"),
+      url(../font/Muller-Bold.8c6e1b8574831eeb117ce698515f9a1c.woff) format("woff");
+}
+@font-face {
+   font-family: Muller;
+   font-style: normal;
+   font-weight: 800;
+   src:
+      local("Muller ExtraBold"),
+      local("MullerExtraBold"),
+      url(../font/muller_extra_bold.93f0aa5c2c13b6bdf116fa80cce5fd65.woff2) format("woff2"),
+      url(../font/Muller-ExtraBold.dbc5716e3fa97fe3721e5f53aa41ec55.woff) format("woff");
+}
+@font-face {
+   font-family: Muller;
+   font-style: normal;
+   font-weight: 900;
+   src:
+      local("Muller Black"),
+      local("MullerBlack"),
+      url(../font/muller_black.cb2ad4a14e24799709b541daa61c575b.woff2) format("woff2"),
+      url(../font/Muller-Black.27725c574aa908aa1a790f0e6fbb4786.woff) format("woff");
+}
+@font-face {
+   font-family: Muller;
+   font-style: normal;
+   font-weight: 300;
+   src:
+      local("Muller Light"),
+      local("MullerLight"),
+      url(../font/muller_light.8ecac673d1a9144b89ba902acc773274.woff2) format("woff2"),
+      url(../font/Muller-Light.7a12029f75952aa12f175cbb840f6083.woff) format("woff");
+}
+@font-face {
+   font-family: Muller;
+   font-style: normal;
+   font-weight: 500;
+   src:
+      local("Muller Medium"),
+      local("MullerMedium"),
+      url(../font/muller_medium.791d5958be3a4deb0c60bf641105fbc7.woff2) format("woff2"),
+      url(../font/Muller-Medium.f88b4df4f2b1d4e12e9f470708e194f3.woff) format("woff");
+}
+@font-face {
+   font-family: Muller;
+   font-style: italic;
+   font-weight: 500;
+   src:
+      local("Muller Medium Italic"),
+      local("MullerMediumItalic"),
+      url(../font/muller_medium_italic.f2d923ec2a2ecac5754865f3d661ac96.woff2) format("woff2"),
+      url(../font/Muller-MediumItalic.543fb63ed1f36c6db25ad94ac58a1708.woff) format("woff");
+}
+@font-face {
+   font-family: Muller;
+   font-style: normal;
+   font-weight: 400;
+   src:
+      local("Muller Regular"),
+      local("MullerRegular"),
+      url(../font/muller_regular.96a27afe1a505f17f45d62993b8ae080.woff2) format("woff2"),
+      url(../font/Muller-Regular.e1cc3703edec36cd6e5cba1427f8d89c.woff) format("woff");
+}
+@font-face {
+   font-family: Museo Sans Cyrl\500;
+   font-style: normal;
+   font-weight: 500;
+   src:
+      local("MuseoSansCyrl-500"),
+      local("Museo Sans Cyrl 500"),
+      url(../font/MuseoSansCyrl-500.09e3e4f9f0ed50d4f3454fee78fb12ac.woff2) format("woff2"),
+      url(../font/MuseoSansCyrl-500.ee9aee2b3f0229eefc9ee630791bb57c.woff) format("woff");
+}
+
+@font-face {
+   font-family: Sochi2014;
+   font-style: normal;
+   font-weight: 700;
+   src:
+      local("Sochi2014 Bold"),
+      local("Sochi2014-Bold"),
+      url(../font/Sochi2014-Bold.b5e938118caf026434698a1e4c3c8ed1.woff) format("woff");
+}
+body {
+   font-family: Muller;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.2;
+   padding: 0;
+}
+[class*="__container"] {
+   max-width: 1230px;
+   margin: 0 auto;
+   padding: 0px 15px;
+}
+a {
+   color: $color-white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: $color-white;
+   font-weight: 700;
+   margin-bottom: 30px;
+   text-align: left;
+   text-transform: none;
+}
+
+h1 {
+   font-size: 50px;
+   line-height: 55px;
+}
+
+h2 {
+   font-size: 28px;
+   line-height: 30px;
+}
+
+h3 {
+   font-size: 16px;
+}
+h4 {
+   font-size: 14px;
+   line-height: 16px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+h5 {
+   font-size: 12px;
+   line-height: 14px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+h6 {
+   font-size: 10px;
+   line-height: 12px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+p {
+   color: #fff;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.2;
+   margin-bottom: 30px;
+}
+body.lock {
+   overflow: hidden;
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+.main {
+   flex: 1 1 auto;
+}
